@@ -1,0 +1,5 @@
+pip install tweepy
+pip install pymongo
+pip install Slacker
+pip install configparser
+pip install googletrans

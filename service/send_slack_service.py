@@ -3,6 +3,7 @@ from slacker import Slacker
 from dao.mongo_dao import MongoDao
 from domain.Key import Key
 from domain.PushData import PushData
+from service.push_msg_maker import MessageMaker
 
 
 class SlackPushService:
@@ -13,12 +14,12 @@ class SlackPushService:
     def pushSlack(self):
         push_list = self.getPushData()
         slack = Slacker(self.key.slack_token)
-        channel = '#'+self.key.slack_channel
+        channel = '#' + self.key.slack_channel
 
         for push in push_list:
-            slack.chat.post_message(channel, text=None, attachments=push.getPushMessage(), as_user=True)
+            maker = MessageMaker(push)
+            slack.chat.post_message(channel, text=None, attachments=maker.makeSlackMsg(), as_user=True)
             self.updatePushComplete(push)
-
 
     def getPushData(self):
         self.dao.openSession()

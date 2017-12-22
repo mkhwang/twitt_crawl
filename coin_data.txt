@@ -1,0 +1,23 @@
+[
+{"screenName" : "Dashpay", "name_ko" : "대시", "name_en" : "Dash", "alias" : "DASH", "twittUrl" : "", "rank" : ""}
+{"screenName" : "Ripple", "name_ko" : "리플", "name_en" : "Ripple", "alias" : "XRP", "twittUrl" : "", "rank" : ""}
+{"screenName" : "ethereumproject", "name_ko" : "이더리움", "name_en" : "Ethereum Classic", "alias" : "ETH", "twittUrl" : "", "rank" : ""}
+{"screenName" : "einsteiniumcoin", "name_ko" : "아인스타이늄", "name_en" : "Einsteinium", "alias" : "EMC2", "twittUrl" : "", "rank" : ""}
+{"screenName" : "NxtCommunity", "name_ko" : "엔엑스티", "name_en" : "Nxt", "alias" : "NXT", "twittUrl" : "", "rank" : ""}
+{"screenName" : "Bitcoin", "name_ko" : "비트코인", "name_en" : "Bitcoin", "alias" : "BTC", "twittUrl" : "", "rank" : ""}
+{"screenName" : "eth_classic", "name_ko" : "이더리움클래식", "name_en" : "Ethereum Classic", "alias" : "ETC", "twittUrl" : "", "rank" : ""}
+{"screenName" : "ArdorPlatform", "name_ko" : "아더", "name_en" : "Ador", "alias" : "ARDR", "twittUrl" : "", "rank" : ""}
+{"screenName" : "litecoin", "name_ko" : "라이트코인", "name_en" : "Litecoin", "alias" : "LTC", "twittUrl" : "", "rank" : ""}
+{"screenName" : "BITCOlNCASH", "name_ko" : "비트코인 캐시", "name_en" : "Bitcoin Cash", "alias" : "BCC", "twittUrl" : "", "rank" : ""}
+{"screenName" : "bitcoingold", "name_ko" : "비트코인 골드", "name_en" : "Bitcoin Gold", "alias" : "BTG", "twittUrl" : "", "rank" : ""}
+{"screenName" : "monerocurrency", "name_ko" : "모네로", "name_en" : "Monero", "alias" : "XMR", "twittUrl" : "", "rank" : ""}
+{"screenName" : "QtumOfficial", "name_ko" : "퀀텀", "name_en" : "Qtum", "alias" : "QTUM", "twittUrl" : "", "rank" : ""}
+{"screenName" : "NEMofficial", "name_ko" : "뉴이코노미무브먼트", "name_en" : "NewEconomyMovement", "alias" : "XEM", "twittUrl" : "", "rank" : ""}
+{"screenName" : "ADAcoin_", "name_ko" : "에이다", "name_en" : "Ada", "alias" : "ADA", "twittUrl" : "", "rank" : ""}
+{"screenName" : "steemit", "name_ko" : "스팀", "name_en" : "STEEM", "alias" : "STEEM", "twittUrl" : "", "rank" : ""}
+{"screenName" : "AugurProject", "name_ko" : "어거", "name_en" : "Augur", "alias" : "REP", "twittUrl" : "", "rank" : ""}
+{"screenName" : "StellarOrg", "name_ko" : "스텔라루멘", "name_en" : "Stellar", "alias" : "XLM", "twittUrl" : "", "rank" : ""}
+{"screenName" : "LiskHQ", "name_ko" : "리스크", "name_en" : "Lisk", "alias" : "LSK", "twittUrl" : "https://twitter.com/liskhq", "rank" : ""}
+{"screenName" : "KomodoPlatform", "name_ko" : "코모도", "name_en" : "KOMODO", "alias" : "KMD", "twittUrl" : "https://twitter.com/komodoplatform", "rank" : ""}
+{"screenName" : "metalpaysme", "name_ko" : "메탈", "name_en" : "Metal", "alias" : "MLT", "twittUrl" : "https://twitter.com/metalpaysme", "rank" : ""}
+]

@@ -9,11 +9,3 @@ class PushData:
         self.screen_name = json_data['screenName']
         self.created_date = json_data['createdDate']
         self.twitt_id = json_data['twittId']
-
-    def getPushMessage(self):
-        msg = '[ %s(%s) ]\n%s\n\n원문 : %s\n등록일시 : %s' % (
-            self.name_ko, self.alias, self.text_ko, self.text_en, self.created_date)
-        attachment_dic = dict()
-        attachment_dic['text'] = msg
-        attachments = [attachment_dic]
-        return attachments

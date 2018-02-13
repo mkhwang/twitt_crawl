@@ -20,4 +20,5 @@
 {"screenName" : "LiskHQ", "name_ko" : "리스크", "name_en" : "Lisk", "alias" : "LSK", "twittUrl" : "https://twitter.com/liskhq", "rank" : ""}
 {"screenName" : "KomodoPlatform", "name_ko" : "코모도", "name_en" : "KOMODO", "alias" : "KMD", "twittUrl" : "https://twitter.com/komodoplatform", "rank" : ""}
 {"screenName" : "metalpaysme", "name_ko" : "메탈", "name_en" : "Metal", "alias" : "MLT", "twittUrl" : "https://twitter.com/metalpaysme", "rank" : ""}
+{"screenName" : "dentcoin", "name_ko" : "덴트", "name_en" : "DENT", "alias" : "DENT", "twittUrl" : "https://twitter.com/dentcoin", "rank" : ""}
 ]

@@ -1,6 +1,6 @@
-##트윗 크롤러
+## 트윗 크롤러
 ----------------
-####실행환경
+#### 실행환경
 - OS : ubuntu 16.04(AWS EC2 )
 - DB : MongoDB 
 - Python 3.6(VirtualEvn) 
@@ -37,7 +37,7 @@ ex : (appenv) ssum@DISCOUNT-API-SVR:~/app$
 python lib
 ```(.bash)
 $ . bin/activate
-pip install -r requirement.txt
+$ pip install -r requirement.txt
 ```
 Redis Check (port : 6379 open check)
 ```(.bash)
@@ -58,12 +58,12 @@ $ sudo systemctl enable mongodb
 $ sudo ufw allow from your_other_server_ip/32 to any port 27017
 $ sudo ufw status
 ```
-####구동
+#### 구동
 - Worker
 ```(.bash)
-celery -A twitt_crawl_worker worker -Q twitt_push --loglevel=INFO >> outFilePath 2>&1 &
+$ celery -A twitt_crawl_worker worker -Q twitt_push --loglevel=INFO >> outFilePath 2>&1 &
 ```
 - Task
 ```(.bash)
-celery beat -A twitt_crawl_worker >> outFilePath 2>&1 &
+$ celery beat -A twitt_crawl_worker >> outFilePath 2>&1 &
 ```
